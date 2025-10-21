@@ -8,7 +8,7 @@ verus_builtin_macros = { git = "https://github.com/verus-lang/verus", branch = "
 
 [[bin]]
 name = "test_true"
-path = "src/test_true.rs"
+path = "test_true.rs"
 
 [package.metadata.verus]
 verify = true
