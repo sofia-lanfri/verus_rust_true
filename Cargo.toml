@@ -3,9 +3,6 @@ name = "test_true"
 version = "0.1.0"
 edition = "2021"
 
-[package.metadata.verus]
-verify = true
-
 [dependencies]
 vstd = { git = "https://github.com/verus-lang/verus", branch = "main" }
 
