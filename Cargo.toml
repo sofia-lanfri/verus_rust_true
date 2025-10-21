@@ -3,15 +3,12 @@ name = "test_true"
 version = "0.1.0"
 edition = "2021"
 
+[package.metadata.verus]
+verify = true
+
 [dependencies]
 vstd = { git = "https://github.com/verus-lang/verus", branch = "main" }
-verus_builtin = { git = "https://github.com/verus-lang/verus", branch = "main" }
-verus_builtin_macros = { git = "https://github.com/verus-lang/verus", branch = "main" }
 
 [[bin]]
 name = "test_true"
 path = "test_true.rs"
-
-[package.metadata.verus]
-verify = true
-
