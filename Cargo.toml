@@ -1,5 +1,5 @@
 [package]
-name = "test_true"
+name = "verus_rust_true"
 
 [dependencies]
 vstd = { git = "https://github.com/verus-lang/verus", branch = "main" }
@@ -7,8 +7,8 @@ verus_builtin = { git = "https://github.com/verus-lang/verus", branch = "main" }
 verus_builtin_macros = { git = "https://github.com/verus-lang/verus", branch = "main" }
 
 [[bin]]
-name = "test_true"
-path = "src/test_true.rs"
+name = "verus_rust_true"
+path = "src/verus_rust_true.rs"
 
 [package.metadata.verus]
 verify = true
